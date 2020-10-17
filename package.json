@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "ethereum-waffle": "^3.1.1"
+  },
+  "name": "uniscam-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nekomeowww/uniscam-contract.git",
+  "author": "Ayaka Neko <neko@ayaka.moe>",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle"
+  }
+}
