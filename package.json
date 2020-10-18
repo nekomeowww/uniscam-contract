@@ -9,6 +9,7 @@
   "author": "Ayaka Neko <neko@ayaka.moe>",
   "license": "MIT",
   "scripts": {
-    "build": "waffle"
+    "build": "waffle",
+    "flatten": "npx waffle flatten"
   }
 }

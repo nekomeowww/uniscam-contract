@@ -87,7 +87,7 @@ library UniswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'8ecd5aaac9ff06a67747f6ab1568302782163b566540cb129841f46556d51ad8' // init code hash
+                hex'47f466d6df248dd0fc5a04b81bfc5e0de31845598e4d111eee7d309f39666e24' // init code hash
             ))));
     }
 
@@ -363,7 +363,7 @@ contract UniswapV2Router02 is IUniswapV2Router02 {
     }
 
     constructor() public {
-        factory = 0x53dB549Ba3E80104f1A8F449133c2ee8d453ab1a;
+        factory = 0xFB75D28518728c2A7046FDc952eEF33dFec92289;
         WETH = 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd;
     }
 
